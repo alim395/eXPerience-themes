@@ -21,6 +21,19 @@ script = ExtResource("2_1026l")
 themes = Array[Theme]([ExtResource("1_x75oi"), ExtResource("3_lwqo1"), ExtResource("4_lwqo1"), ExtResource("1_vcnan")])
 themeButton = NodePath("ThemesButton")
 
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -60.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("8_im1ju")
+expand_mode = 5
+stretch_mode = 5
+
 [node name="Window" type="Window" parent="."]
 canvas_item_default_texture_filter = 0
 oversampling_override = 1.0
@@ -291,16 +304,5 @@ layout_mode = 0
 offset_left = 509.0
 offset_right = 638.0
 offset_bottom = 19.0
-
-[node name="Background" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("8_im1ju")
-expand_mode = 5
-stretch_mode = 5
 
 [connection signal="item_selected" from="ThemesButton" to="." method="_on_themes_button_item_selected"]
