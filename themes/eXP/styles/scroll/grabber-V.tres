@@ -1,0 +1,10 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://cg5kl56hudic0"]
+
+[ext_resource type="Texture2D" uid="uid://ho3x3p7m35jh" path="res://themes/eXP/styles/scroll/grabberV.png" id="1_e6dw5"]
+
+[resource]
+texture = ExtResource("1_e6dw5")
+texture_margin_left = 2.0
+texture_margin_top = 2.0
+texture_margin_right = 2.0
+texture_margin_bottom = 2.0

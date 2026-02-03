@@ -1,0 +1,14 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://cradxmtx5djdt"]
+
+[ext_resource type="Texture2D" uid="uid://c2bx0t3dy75es" path="res://themes/eXP/styles/window/WindowsTitleOlive.png" id="1_wh2ch"]
+
+[resource]
+texture = ExtResource("1_wh2ch")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+expand_margin_left = 3.0
+expand_margin_top = 28.0
+expand_margin_right = 3.0
+expand_margin_bottom = 5.0
+region_rect = Rect2(0, 0, 14, 28)

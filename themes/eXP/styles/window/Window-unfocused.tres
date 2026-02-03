@@ -1,0 +1,16 @@
+[gd_resource type="StyleBox" script_class="StyleboxStack" load_steps=4 format=3 uid="uid://d0lrckwxo0ku6"]
+
+[ext_resource type="Script" uid="uid://bpobhv17fo8i" path="res://addons/Elementum/Downloads/Class/StyleboxStack.gd" id="1_2toym"]
+[ext_resource type="StyleBox" uid="uid://cruaht3q5fnxd" path="res://themes/eXP/styles/window/Window.tres" id="2_57mwg"]
+[ext_resource type="StyleBox" uid="uid://bfqk04oqylr2s" path="res://themes/eXP/styles/window/unfocusedWindow.tres" id="3_2toym"]
+
+[resource]
+resource_local_to_scene = false
+resource_name = ""
+content_margin_left = -1.0
+content_margin_top = -1.0
+content_margin_right = -1.0
+content_margin_bottom = -1.0
+script = ExtResource("1_2toym")
+style_boxes = Array[StyleBox]([ExtResource("2_57mwg"), ExtResource("3_2toym")])
+metadata/_custom_type_script = "uid://bpobhv17fo8i"
