@@ -29,9 +29,9 @@
 [ext_resource type="Texture2D" uid="uid://beb51l3qowtpi" path="res://themes/eXP/styles/scroll/royale/slider-horiz-prelight.png" id="27_xa6yl"]
 [ext_resource type="Texture2D" uid="uid://cfldlagdthdei" path="res://themes/eXP/styles/scroll/royale/slider-horiz-active.png" id="28_1ueth"]
 [ext_resource type="StyleBox" uid="uid://ci0mheuaf4xfp" path="res://themes/eXP/styles/scroll/scrollH.tres" id="29_gl5qg"]
-[ext_resource type="Texture2D" uid="uid://bf2ixapc8j32k" path="res://themes/eXP/styles/scroll/slider-horz.png" id="30_2bfpg"]
-[ext_resource type="Texture2D" uid="uid://c56xg2w52rka4" path="res://themes/eXP/styles/scroll/slider-horz-insensitive.png" id="31_udrwh"]
-[ext_resource type="Texture2D" uid="uid://cmtmknse87jc" path="res://themes/eXP/styles/scroll/slider-horz-hover.png" id="32_68bkv"]
+[ext_resource type="Texture2D" uid="uid://dh015nptuadwl" path="res://themes/eXP/styles/scroll/royale/Range/slider-horz.png" id="30_kvprq"]
+[ext_resource type="Texture2D" uid="uid://c1ru0g6qqy80t" path="res://themes/eXP/styles/scroll/royale/Range/slider-horz-insensitive.png" id="31_8wuvw"]
+[ext_resource type="Texture2D" uid="uid://2donlqruhl4f" path="res://themes/eXP/styles/scroll/royale/Range/slider-horz-hover.png" id="32_b1ghc"]
 [ext_resource type="StyleBox" uid="uid://lp4h43qlge6c" path="res://themes/eXP/styles/button/slider.tres" id="33_hu2ub"]
 [ext_resource type="StyleBox" uid="uid://de4px7ryyccf" path="res://themes/eXP/styles/button/slider_HTrack.tres" id="34_2qw6s"]
 [ext_resource type="StyleBox" uid="uid://d11xotv1va41p" path="res://themes/eXP/styles/option/optionButton.tres" id="35_i8gov"]
@@ -53,9 +53,9 @@
 [ext_resource type="Texture2D" uid="uid://dilycb4b7idqp" path="res://themes/eXP/styles/scroll/royale/slider-vert-prelight.png" id="51_8wuvw"]
 [ext_resource type="Texture2D" uid="uid://dh8cmi4blupua" path="res://themes/eXP/styles/scroll/royale/slider-vert-active.png" id="52_b1ghc"]
 [ext_resource type="StyleBox" uid="uid://c65mwbae6q2v7" path="res://themes/eXP/styles/scroll/scroll.tres" id="53_pvwkm"]
-[ext_resource type="Texture2D" uid="uid://dhof3w2mcysq2" path="res://themes/eXP/styles/scroll/slider-vert.png" id="54_4ybg2"]
-[ext_resource type="Texture2D" uid="uid://c2ywvq6m3avdv" path="res://themes/eXP/styles/scroll/slider-vert-insensitive.png" id="55_fi5vj"]
-[ext_resource type="Texture2D" uid="uid://csk83h4cucn20" path="res://themes/eXP/styles/scroll/slider-vert-hover.png" id="56_ei5sr"]
+[ext_resource type="Texture2D" uid="uid://chf1lea8lpmns" path="res://themes/eXP/styles/scroll/royale/Range/slider-vert.png" id="54_1rjmb"]
+[ext_resource type="Texture2D" uid="uid://5yfp5kovyavu" path="res://themes/eXP/styles/scroll/royale/Range/slider-vert-insensitive.png" id="55_4kmeu"]
+[ext_resource type="Texture2D" uid="uid://cptemu475tgmn" path="res://themes/eXP/styles/scroll/royale/Range/slider-vert-hover.png" id="56_nwfhc"]
 [ext_resource type="StyleBox" uid="uid://de2u4svwt88f2" path="res://themes/eXP/styles/button/slider_VTrack.tres" id="57_6mfhj"]
 [ext_resource type="FontFile" uid="uid://clh8vo8b0pbmx" path="res://themes/eXP/styles/fonts/trebucbd.ttf" id="58_ueto0"]
 [ext_resource type="Texture2D" uid="uid://c4q6gal0qcnxg" path="res://themes/eXP/styles/window/close.svg" id="59_udppq"]
@@ -324,9 +324,9 @@ HScrollBar/styles/grabber_highlight = SubResource("StyleBoxTexture_vpjyv")
 HScrollBar/styles/grabber_pressed = SubResource("StyleBoxTexture_mog6n")
 HScrollBar/styles/scroll = ExtResource("29_gl5qg")
 HScrollBar/styles/scroll_focus = ExtResource("29_gl5qg")
-HSlider/icons/grabber = ExtResource("30_2bfpg")
-HSlider/icons/grabber_disabled = ExtResource("31_udrwh")
-HSlider/icons/grabber_highlight = ExtResource("32_68bkv")
+HSlider/icons/grabber = ExtResource("30_kvprq")
+HSlider/icons/grabber_disabled = ExtResource("31_8wuvw")
+HSlider/icons/grabber_highlight = ExtResource("32_b1ghc")
 HSlider/styles/slider = SubResource("StyleBox_o51ib")
 Label/colors/font_color = Color(0, 0, 0, 1)
 Label/font_sizes/font_size = 11
@@ -402,9 +402,9 @@ VScrollBar/styles/grabber_highlight = SubResource("StyleBoxTexture_4kmeu")
 VScrollBar/styles/grabber_pressed = SubResource("StyleBoxTexture_nwfhc")
 VScrollBar/styles/scroll = ExtResource("53_pvwkm")
 VScrollBar/styles/scroll_focus = ExtResource("53_pvwkm")
-VSlider/icons/grabber = ExtResource("54_4ybg2")
-VSlider/icons/grabber_disabled = ExtResource("55_fi5vj")
-VSlider/icons/grabber_highlight = ExtResource("56_ei5sr")
+VSlider/icons/grabber = ExtResource("54_1rjmb")
+VSlider/icons/grabber_disabled = ExtResource("55_4kmeu")
+VSlider/icons/grabber_highlight = ExtResource("56_nwfhc")
 VSlider/styles/slider = SubResource("StyleBox_jn4jb")
 Window/colors/title_outline_modulate = Color(0.14509805, 0.2627451, 0.5803922, 1)
 Window/constants/close_h_offset = 24

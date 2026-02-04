@@ -406,6 +406,7 @@ VSlider/icons/grabber = ExtResource("54_d80bb")
 VSlider/icons/grabber_disabled = ExtResource("55_i0e87")
 VSlider/icons/grabber_highlight = ExtResource("56_1hkf8")
 VSlider/styles/slider = SubResource("StyleBox_jn4jb")
+Window/colors/title_color = Color(0, 0, 0, 1)
 Window/colors/title_outline_modulate = Color(0.4, 0.4, 0.49411765, 1)
 Window/constants/close_h_offset = 24
 Window/constants/title_height = 28
