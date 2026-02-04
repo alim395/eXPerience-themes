@@ -1,5 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://mnspckdtwpby"]
+[gd_scene load_steps=11 format=3 uid="uid://mnspckdtwpby"]
 
+[ext_resource type="Theme" uid="uid://c5smlolg1l1dx" path="res://themes/eXP/eXP_Royale.tres" id="1_3kf0c"]
+[ext_resource type="Theme" uid="uid://bmwkvlh7pnvu1" path="res://themes/eXP/eXP_Metallic.tres" id="1_fh82t"]
 [ext_resource type="Theme" uid="uid://ck3kfrt4rx6dn" path="res://themes/eXP/eXP_Zune.tres" id="1_vcnan"]
 [ext_resource type="Theme" uid="uid://diofr3kthuaw" path="res://themes/eXP/eXP_Luna.tres" id="1_x75oi"]
 [ext_resource type="Script" uid="uid://ck4bvdif8cr1f" path="res://scenes/eXP.gd" id="2_1026l"]
@@ -16,9 +18,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme = ExtResource("1_x75oi")
+theme = ExtResource("1_3kf0c")
 script = ExtResource("2_1026l")
-themes = Array[Theme]([ExtResource("1_x75oi"), ExtResource("3_lwqo1"), ExtResource("4_lwqo1"), ExtResource("1_vcnan")])
+themes = Array[Theme]([ExtResource("1_x75oi"), ExtResource("3_lwqo1"), ExtResource("4_lwqo1"), ExtResource("1_fh82t"), ExtResource("1_3kf0c"), ExtResource("1_vcnan")])
 themeButton = NodePath("ThemesButton")
 
 [node name="Background" type="TextureRect" parent="."]
