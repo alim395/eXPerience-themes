@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=98 format=3 uid="uid://bmwkvlh7pnvu1"]
+[gd_resource type="Theme" load_steps=99 format=3 uid="uid://bmwkvlh7pnvu1"]
 
 [ext_resource type="FontFile" uid="uid://dhsjug0gnmqg5" path="res://themes/eXP/styles/fonts/MS Sans Serif.ttf" id="1_vlf8d"]
 [ext_resource type="StyleBox" uid="uid://dmt4rpqynea14" path="res://themes/eXP/styles/button/buttonStack-disabled.tres" id="2_bxplm"]
@@ -6,6 +6,7 @@
 [ext_resource type="StyleBox" uid="uid://dt5hr60b1dhkd" path="res://themes/eXP/styles/button/button-border.tres" id="4_jnlvx"]
 [ext_resource type="StyleBox" uid="uid://b1pqq85k5u6r5" path="res://themes/eXP/styles/button/button-active.tres" id="5_jp2e6"]
 [ext_resource type="StyleBox" uid="uid://c2x6j1od2107i" path="res://themes/eXP/styles/button/button-focus.tres" id="6_hr2tm"]
+[ext_resource type="StyleBox" uid="uid://mck76q7ooihg" path="res://themes/eXP/styles/button/FocusedBorder.tres" id="7_bxplm"]
 [ext_resource type="StyleBox" uid="uid://cw2xsb62k3uuu" path="res://themes/eXP/styles/button/button-hover.tres" id="7_gtnpm"]
 [ext_resource type="StyleBox" uid="uid://c8o071y735fk3" path="res://themes/eXP/styles/button/button-pressed.tres" id="8_jnlji"]
 [ext_resource type="StyleBox" uid="uid://pt0yjtg34cdu" path="res://themes/eXP/styles/button/buttonStack-normal.tres" id="9_h65ob"]
@@ -73,7 +74,7 @@ content_margin_top = -1.0
 content_margin_right = -1.0
 content_margin_bottom = -1.0
 script = ExtResource("3_42gwx")
-style_boxes = Array[StyleBox]([ExtResource("4_jnlvx"), ExtResource("5_jp2e6"), ExtResource("6_hr2tm")])
+style_boxes = Array[StyleBox]([ExtResource("4_jnlvx"), ExtResource("5_jp2e6"), ExtResource("6_hr2tm"), ExtResource("7_bxplm")])
 metadata/_custom_type_script = "uid://bpobhv17fo8i"
 
 [sub_resource type="StyleBox" id="StyleBox_f2ya5"]
