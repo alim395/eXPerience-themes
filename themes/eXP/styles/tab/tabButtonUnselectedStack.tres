@@ -1,0 +1,15 @@
+[gd_resource type="StyleBox" script_class="StyleboxStack" load_steps=3 format=3 uid="uid://bipqob58lv82q"]
+
+[ext_resource type="Script" uid="uid://bpobhv17fo8i" path="res://addons/Elementum/Downloads/Class/StyleboxStack.gd" id="1_kcyc8"]
+[ext_resource type="StyleBox" uid="uid://bgci5w17bowud" path="res://themes/eXP/styles/tab/tabButtonUnselected.tres" id="2_is5a1"]
+
+[resource]
+resource_local_to_scene = false
+resource_name = ""
+content_margin_left = 12.0
+content_margin_top = 1.0
+content_margin_right = 12.0
+content_margin_bottom = 3.0
+script = ExtResource("1_kcyc8")
+style_boxes = Array[StyleBox]([ExtResource("2_is5a1")])
+metadata/_custom_type_script = "uid://bpobhv17fo8i"
